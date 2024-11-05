@@ -1,0 +1,22 @@
+/* UserPage.css */
+
+.user-page-container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    
+    transition: margin-left 0.3s ease;
+  }
+  
+  /* Responsive Main Content */
+  @media (max-width: 768px) {
+    .main-content {
+      padding: 0px;
+    }
+  }
+  
