@@ -1,0 +1,124 @@
+/* Global Styles for Forms */
+.forms-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.forms-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.forms-submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.forms-submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Unique Class Names for FirstForm */
+.first-forms-container {
+    background-color: #e9f7fe;
+}
+
+.first-forms-container .forms-group {
+    margin-bottom: 18px;
+}
+
+.first-forms-container input[type="text"],
+.first-forms-container input[type="email"],
+.first-forms-container select {
+    border: 1px solid #a3d8ff;
+}
+
+/* Unique Class Names for SecondForm */
+.second-forms-container {
+    background-color: #f1f8e9;
+}
+
+.second-forms-container .forms-group {
+    margin-bottom: 20px;
+}
+
+.second-forms-container input[type="text"],
+.second-forms-container input[type="email"],
+.second-forms-container select {
+    border: 1px solid #c8e6c9;
+}
+
+/* Unique Class Names for ThirdForm */
+.third-forms-container {
+    background-color: #fff3e0;
+}
+
+.third-forms-container .forms-group {
+    margin-bottom: 22px;
+}
+
+.third-forms-container input[type="text"],
+.third-forms-container input[type="email"],
+.third-forms-container select {
+    border: 1px solid #ffcc80;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .forms-container {
+        padding: 15px;
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .forms-submit-button {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
