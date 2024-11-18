@@ -7,7 +7,7 @@ function Login() {
 
     const handleLogin = () => {
         // You can add login validation here if needed
-        navigate('/user');
+        navigate('/navbar');
     }
     return (
         <div className="login-container">
